@@ -2,10 +2,10 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>pentaho</groupId>
-  <artifactId>mondrian</artifactId>
+  <groupId>org.tahopen</groupId>
+  <artifactId>drianmon</artifactId>
   <version>4.7.2-SAIKU</version>
-  <name>mondrian</name>
+  <name>drianmon</name>
   <description>Mondrian OLAP engine.</description>
   <url>http://github.com/pentaho/mondrian</url>
   <inceptionYear>2001</inceptionYear>
@@ -337,7 +337,10 @@
             </configuration>
           </execution>
         </executions>
+
         <dependencies>
+<!--
+</dependency>
           <dependency>
             <groupId>com.sun</groupId>
             <artifactId>tools</artifactId>
@@ -345,6 +348,7 @@
             <scope>system</scope>
             <systemPath>${java.home}/../lib/tools.jar</systemPath>
           </dependency>
+-->          
         </dependencies>
       </plugin>
       <plugin>
